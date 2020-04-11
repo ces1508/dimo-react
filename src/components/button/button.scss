@@ -1,0 +1,31 @@
+.dimo_button {
+  padding: 10px 2em;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+
+  &--success {
+    background-color: #2ECC71;
+    color: #FFFFFF;
+  }
+
+  &--restaurant {
+    background-color: #FFCA00;
+    color: #000;
+  }
+
+  &--product {
+    background-color: #362E82;
+    color: #fff;
+  }
+
+  &--plate {
+    background-color: #ED0B0B;
+    color: #fff;
+  }
+
+  &--disable {
+    opacity: .45;
+  }
+}

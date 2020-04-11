@@ -1,0 +1,34 @@
+.progressiveImage {
+  // position: absolute;
+
+  &__container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #e1e4e8;
+  }
+
+  &__overlay {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+
+    &--thumb {
+      filter: blur(3px);
+    }
+  }
+
+  &__animated {
+    transition: ease-in-out load 1s;
+  }
+
+  @keyframes load {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
