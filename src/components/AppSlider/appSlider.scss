@@ -1,0 +1,37 @@
+.appSlider {
+  &__item {
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .slick-list {
+    height: 100%;
+    & .slick-track {
+      height: 100%;
+    }
+  }
+
+  .slick-slide {
+    height: 100%;
+    & > div {
+      height: 100%;
+    }
+  }
+
+  .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    &::before {
+      color: #919191;
+      font-size: 10px;
+      opacity: .6;
+    }
+  }
+  .slick-dots li.slick-active button::before {
+    font-size: 15px;
+    color: #000 !important;
+    transform: scale(1.2);
+  }
+}
