@@ -1,0 +1,22 @@
+.showCase {
+  width: 48%;
+  background-color: transparent;
+
+  &__container_separator {
+    margin: 2em 0;
+  }
+
+  &__container_products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    justify-content: space-between;
+
+    .productCard {
+      margin-bottom: 10px;
+    }
+  }
+}
