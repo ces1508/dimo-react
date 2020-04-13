@@ -1,0 +1,24 @@
+.home {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-auto-rows: minmax(100px, auto);
+  width: 100%;
+  grid-row-gap: 2.5em;
+  box-sizing: border-box;
+
+  &__showcases {
+    grid-column: 1 / 4;
+    display: flex;
+    grid-row: 2;
+    justify-content: space-between;
+  }
+
+  &__main-slider {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+}
