@@ -8,7 +8,7 @@ const ArrowIcon = props => (
     height="9.664"
     viewBox="0 0 5.042 9.664">
     <path
-      class="a"
+      className="a"
       fill={props.fill}
       stroke={props.stroke}
       d="M1366.624-36.387l4.5,4,4.5-4"
