@@ -1,5 +1,6 @@
 import React from 'react'
 import BrandCard from '../components/BrandCard'
+import BrandCardInvitation from '../components/BrandCard/Invitation'
 
 export default  {
   title: 'BrandCard',
@@ -18,3 +19,4 @@ const brand = {
 }
 
 export const card = () => <BrandCard brand={brand} />
+export const Invitation = () => <BrandCardInvitation />

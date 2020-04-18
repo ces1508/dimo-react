@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import BrandCardContainer from './Card'
 import BrandCardImage from './Image'
 import BrandCardLogo from './Logo'
 import BrandCardDescription from './Description'
@@ -8,7 +9,7 @@ import './brandCard.scss'
 const BrandCard = props => {
   const { name, image, thumb, price, logo, logoThumb, distance, rating, category } = props.brand
   return (
-    <div className='brandCard'>
+    <BrandCardContainer>
       <BrandCardImage image={image} thumb={thumb}  />
       <BrandCardLogo image={logo} thumb={logoThumb} />
       <BrandCardDescription
@@ -17,7 +18,7 @@ const BrandCard = props => {
         price={price}
         rating={rating}
         distance={distance} />
-    </div>
+    </BrandCardContainer>
   )
 }
 
