@@ -28,7 +28,6 @@ const MainItems = [
   }
 ]
 
-
 function openNew (url) {
   return window.open(url, '_blank')
 }

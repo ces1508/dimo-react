@@ -7,7 +7,7 @@ import './productCard.scss'
 const ProductCard = props => {
   return (
     <div className='productCard'>
-      <ProductCardImage image={props.product.image} thumb={props.product.thumb}/>
+      <ProductCardImage image={props.product.image} thumb={props.product.thumb} />
       <ProductCardDescription name={props.product.name} price={props.product.price} />
     </div>
   )

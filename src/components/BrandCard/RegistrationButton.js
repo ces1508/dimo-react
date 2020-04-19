@@ -4,7 +4,7 @@ import ArrowIcon from '../ArrowIcon'
 const RegistrationButton = props => (
   <button className='brandCard__registration_button'>
     Regístrate
-    <ArrowIcon stroke="#fff" />
+    <ArrowIcon stroke='#fff' />
   </button>
 )
 

@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "lint": "standar --fix"
+    "lint": "standard --fix"
   },
   "standard": {
     "globals": ["fetch", "test", "expect"]

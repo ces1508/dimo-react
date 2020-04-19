@@ -13,13 +13,15 @@ const ProgressiveImage = props => {
         src={props.thumb}
         alt={props.alt}
         style={customStyles}
-        onLoad={() => setloadThumb(true)}/>
+        onLoad={() => setloadThumb(true)}
+      />
       <img
         className={`progressiveImage__overlay ${loadImage ? 'progressiveImage__animated' : ''}`}
         src={props.src}
         alt={props.alt}
         style={customStyles}
-        onLoad={() => setLoadImage(true)}/>
+        onLoad={() => setLoadImage(true)}
+      />
     </div>
   )
 }
@@ -36,4 +38,3 @@ ProgressiveImage.defaultProps = {
 }
 
 export default ProgressiveImage
-

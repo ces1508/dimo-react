@@ -1,5 +1,5 @@
-import React from 'react';
-import ProductCard  from '../components/ProductCard';
+import React from 'react'
+import ProductCard from '../components/ProductCard'
 
 const Product = {
   name: 'lomito mongolian',
@@ -20,4 +20,3 @@ export default {
 
 export const Default = () => <ProductCard product={Product} />
 export const NameHtml = () => <ProductCard product={ProductWithTitleAsHtml} />
-

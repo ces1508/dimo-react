@@ -21,11 +21,11 @@ export const ClickToActive = () => {
       <CategoryItem
         handleClick={() => setActive(!active)}
         category={category}
-        active={active} />
-      </div>
+        active={active}
+      />
+    </div>
   )
 }
-
 
 export const TypeRestaurant = () => {
   const [active, setActive] = useState(false)
@@ -35,8 +35,9 @@ export const TypeRestaurant = () => {
         handleClick={() => setActive(!active)}
         category={category}
         type='RESTAURANT'
-        active={active} />
-      </div>
+        active={active}
+      />
+    </div>
   )
 }
 
@@ -48,7 +49,8 @@ export const TypeProduct = () => {
         handleClick={() => setActive(!active)}
         category={category}
         type='PRODUCT'
-        active={active} />
-      </div>
+        active={active}
+      />
+    </div>
   )
 }

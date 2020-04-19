@@ -37,27 +37,27 @@ const ShowCases = props => (
     <ShowCase
       sliderProps={{
         items: restaurantSliderItems,
-        width:'100%',
-        resizeMethod:'cover',
-          height: 200
-        }}
-        dividerProps={{
-          title: 'Ir a Restaurantes',
-          type: 'RESTAURANT'
-        }}
+        width: '100%',
+        resizeMethod: 'cover',
+        height: 200
+      }}
+      dividerProps={{
+        title: 'Ir a Restaurantes',
+        type: 'RESTAURANT'
+      }}
       items={props.plates}
     />
     <ShowCase
       sliderProps={{
         items: productsSliderItems,
-        width:'100%',
-        resizeMethod:'cover',
-          height: 200
-        }}
-        dividerProps={{
-          title: 'Ir a Productos',
-          type: 'PRODUCT'
-        }}
+        width: '100%',
+        resizeMethod: 'cover',
+        height: 200
+      }}
+      dividerProps={{
+        title: 'Ir a Productos',
+        type: 'PRODUCT'
+      }}
       items={props.products}
     />
   </section>

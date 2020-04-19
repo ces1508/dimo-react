@@ -14,10 +14,9 @@ const imageProps = {
 export const normal = () => (
   <div style={{ width: 200, height: 200, position: 'relative' }}>
     <ProgressiveImage
-      alt="image preload"
+      alt='image preload'
       thumb={imageProps.thumb}
       src={imageProps.src}
     />
   </div>
 )
-

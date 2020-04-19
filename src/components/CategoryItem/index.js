@@ -15,7 +15,8 @@ const CategoryItem = props => {
       <img
         className='category_item__image'
         src={category.image}
-        alt={category.name} />
+        alt={category.name}
+      />
       <div className='category_item__description '>
         <p className='category_item__name'>{category.name}</p>
         {/* <p className='category_item__quantity'>{quantity}</p> */}

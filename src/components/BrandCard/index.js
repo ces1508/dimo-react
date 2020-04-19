@@ -10,14 +10,15 @@ const BrandCard = props => {
   const { name, image, thumb, price, logo, logoThumb, distance, rating, category } = props.brand
   return (
     <BrandCardContainer>
-      <BrandCardImage image={image} thumb={thumb}  />
+      <BrandCardImage image={image} thumb={thumb} />
       <BrandCardLogo image={logo} thumb={logoThumb} />
       <BrandCardDescription
         name={name}
         category={category}
         price={price}
         rating={rating}
-        distance={distance} />
+        distance={distance}
+      />
     </BrandCardContainer>
   )
 }

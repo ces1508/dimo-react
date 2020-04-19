@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 const ProductCardDescription = props => (
   <div className='productCard__description'>
-    <p className='productCard__name' dangerouslySetInnerHTML={{ __html: props.name }}></p>
+    <p className='productCard__name' dangerouslySetInnerHTML={{ __html: props.name }} />
     <p className='productCard__price'>{numeral(props.price).format('0,0').replace(',', '.')}</p>
   </div>
 )
