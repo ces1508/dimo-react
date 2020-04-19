@@ -13,7 +13,7 @@ const Invitation = ({ text }) => (
     <BrandCardLogo image={chefHat} thumb={chefHat} resizeMethod='scale-down' />
     <div className='brandCard__description brandCard__description--invitation'>
       <p className='brandCard__name'>{text}</p>
-      <div  style={{ marginTop: 30 }} className='brandCard__description_two_columns'>
+      <div style={{ marginTop: 30 }} className='brandCard__description_two_columns'>
         <p className='brandCard__registration_feed'>¡Es gratis!</p>
         <BrandRegistrationButton />
       </div>

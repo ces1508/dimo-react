@@ -6,5 +6,5 @@ export default {
   component: HomeSectionDivider
 }
 
-export const Restaurant = () => <HomeSectionDivider  title='Ir a Restaurantes' type='RESTAURANT' />
-export const Prodcuct = () => <HomeSectionDivider  title='Ir a Restaurantes' type='PRODUCT' />
+export const Restaurant = () => <HomeSectionDivider title='Ir a Restaurantes' type='RESTAURANT' />
+export const Prodcuct = () => <HomeSectionDivider title='Ir a Restaurantes' type='PRODUCT' />

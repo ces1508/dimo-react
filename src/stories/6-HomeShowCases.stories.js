@@ -1,7 +1,7 @@
 import React from 'react'
 import ShowCase from '../components/ShowCase'
 
-export default  {
+export default {
   title: 'Home Show Case',
   component: ShowCase
 }
@@ -12,7 +12,7 @@ const product = {
   image: 'https://fusemall.s3.us-west-2.amazonaws.com/uploads/product/image_data/269/887852a6-b02a-4773-b795-d159bf11f491.jpeg',
   thumb: 'https://fusemall.s3.us-west-2.amazonaws.com/uploads/product/image_data/269/thumb_887852a6-b02a-4773-b795-d159bf11f491.jpeg'
 }
-let products = []
+const products = []
 for (let i = 0; i < 12; i++) {
   products.push({
     ...product,
@@ -55,8 +55,8 @@ export const RestaurantShowCase = () => (
   <ShowCase
     sliderProps={{
       items: restaurantSliderItems,
-      width:'100%',
-      resizeMethod:'cover',
+      width: '100%',
+      resizeMethod: 'cover',
       height: 200
     }}
     dividerProps={{
@@ -71,8 +71,8 @@ export const ProductsShowCase = () => (
   <ShowCase
     sliderProps={{
       items: productsSliderItems,
-      width:'100%',
-      resizeMethod:'cover',
+      width: '100%',
+      resizeMethod: 'cover',
       height: 200
     }}
     dividerProps={{

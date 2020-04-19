@@ -54,7 +54,8 @@ export default function HomePage () {
       <MainSlider />
       <ShowCases
         plates={parseProduct(data.plates)}
-        products={parseProduct(data.products)} />
+        products={parseProduct(data.products)}
+      />
     </section>
   )
 }

@@ -22,7 +22,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "lint": "standard --fix"
+  },
+  "standard": {
+    "globals": ["fetch", "test", "expect"]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +49,7 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "standard": "^14.3.3"
   }
 }

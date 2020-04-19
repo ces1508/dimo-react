@@ -7,7 +7,7 @@ import HomeSectionDivider from '../HomeSectionDivider'
 import './showCase.scss'
 
 const ShowCase = props => {
-  const { dividerProps, sliderProps,  items } = props
+  const { dividerProps, sliderProps, items } = props
   return (
     <section className='showCase'>
       <AppSlider {...sliderProps} />

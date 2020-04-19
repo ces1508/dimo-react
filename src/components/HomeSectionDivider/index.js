@@ -20,16 +20,17 @@ const HomeSectionDivider = props => {
   return (
     <div
       className={
-        `home_section_divider__main ${props.type === 'RESTAURANT' ?
-        'home_section_divider__main--restaurants'
-        : 'home_section_divider__main--products'}`}>
-      { !useCustomLeftIcon ? <Icon className='home_section_divider__left_icon' /> : <img  src={props.customLeftIcon} alt='' className='http://localhost:9009/?path=/story/homesectiondivider--type-restaurant' />}
+        `home_section_divider__main ${props.type === 'RESTAURANT'
+        ? 'home_section_divider__main--restaurants'
+        : 'home_section_divider__main--products'}`
+      }
+    >
+      {!useCustomLeftIcon ? <Icon className='home_section_divider__left_icon' /> : <img src={props.customLeftIcon} alt='' className='http://localhost:9009/?path=/story/homesectiondivider--type-restaurant' />}
       <h1 className='home_section_divider__title'>{props.title}</h1>
-      { !useCustomRigthIcon ? <ArrowIcon stroke={IsRestaurant ? '#000' : 'white'} className='home_section_divider____right_icon'/> : <img  src={props.customRightIcon} alt='' className='home_section_divider__icon' />}
+      {!useCustomRigthIcon ? <ArrowIcon stroke={IsRestaurant ? '#000' : 'white'} className='home_section_divider____right_icon' /> : <img src={props.customRightIcon} alt='' className='home_section_divider__icon' />}
     </div>
   )
 }
-
 
 HomeSectionDivider.propTypes = {
   type: PropTypes.oneOf((['PRODUCT', 'RESTAURANT'])),
